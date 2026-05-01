@@ -20,11 +20,13 @@ Select all that apply:
 - [ ] Security
 - [ ] Accessibility
 - [ ] Governance or policy
+- [ ] Legal or compliance
+- [ ] Funding, grants, sponsorship, or revenue language
 - [ ] Maintenance
 
 ## Mission alignment
 
-Explain how this change supports Karma Infinity’s mission, contributor experience, safety, accessibility, reliability, or long-term stewardship.
+Explain how this change supports Karma Infinity’s mission, contributor experience, safety, accessibility, reliability, legal accuracy, or long-term stewardship.
 
 ## What changed
 
@@ -40,14 +42,28 @@ Provide clear steps:
 2. 
 3. 
 
+## Legal status and funding review
+
+Karma Infinity is operated as Karma Infinity LLC, a New Jersey limited liability company. It is not a nonprofit, charity, tax-exempt organization, public charity, foundation, or 501(c)(3) unless maintainers formally document a future legal structure.
+
+Select all that apply:
+
+- [ ] I reviewed `LEGAL.md`.
+- [ ] This pull request does not describe Karma Infinity LLC as a nonprofit, charity, tax-exempt organization, public charity, foundation, or 501(c)(3).
+- [ ] This pull request does not state or imply that payments, sponsorships, support, funding, or grants are tax-deductible charitable donations.
+- [ ] Funding language uses LLC-safe wording such as funding, sponsorship, support, customer payment, partnership, revenue, or eligible grant funding.
+- [ ] Grant, investor, public-benefit, fiscal-sponsor, securities-like, health, legal, financial, crisis, or vulnerable-population language has been flagged for review if applicable.
+- [ ] Not applicable; this pull request does not affect legal, funding, tax, grant, partnership, or public-facing status language.
+
 ## Risk review
 
 Select all that apply:
 
-- [ ] No meaningful user, security, privacy, accessibility, or governance risk
+- [ ] No meaningful user, security, privacy, accessibility, legal, funding, governance, or AI-safety risk
 - [ ] Security impact considered
 - [ ] Privacy impact considered
 - [ ] Accessibility impact considered
+- [ ] Legal status and funding impact considered
 - [ ] AI safety or automation impact considered
 - [ ] Governance or community impact considered
 - [ ] Documentation impact considered
@@ -62,11 +78,12 @@ Add screenshots, logs, before and after examples, or links when useful.
 ## AI-assisted work disclosure
 
 - [ ] This pull request did not use AI-assisted generation in a material way.
-- [ ] This pull request used AI assistance, and I reviewed the output for accuracy, security, licensing, privacy, bias, and accessibility.
+- [ ] This pull request used AI assistance, and I reviewed the output for accuracy, security, licensing, privacy, legal-status accuracy, funding/tax language, bias, and accessibility.
 
 ## Contributor checklist
 
 - [ ] I have read `CONTRIBUTING.md`.
+- [ ] I have read `LEGAL.md` when this change affects public language, funding, grants, sponsorship, revenue, entity status, compliance, or governance.
 - [ ] I agree to follow `CODE_OF_CONDUCT.md`.
 - [ ] I did not include secrets, credentials, private data, or public security vulnerability details.
 - [ ] I kept this pull request focused and reasonably scoped.
