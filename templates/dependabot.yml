@@ -1,0 +1,48 @@
+# Karma Infinity Dependabot template
+# Copy this file into a repository as .github/dependabot.yml when that repository has matching dependency manifests.
+# Do not enable package ecosystems that do not exist in the repository.
+
+version: 2
+updates:
+  # GitHub Actions workflow dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - "security"
+      - "dependencies"
+
+  # JavaScript / TypeScript dependencies
+  # Enable only when package.json exists.
+  # - package-ecosystem: "npm"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   open-pull-requests-limit: 5
+  #   labels:
+  #     - "security"
+  #     - "dependencies"
+
+  # Python dependencies
+  # Enable only when requirements.txt, pyproject.toml, setup.py, or Pipfile exists.
+  # - package-ecosystem: "pip"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   open-pull-requests-limit: 5
+  #   labels:
+  #     - "security"
+  #     - "dependencies"
+
+  # Docker dependencies
+  # Enable only when Dockerfile exists.
+  # - package-ecosystem: "docker"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   open-pull-requests-limit: 5
+  #   labels:
+  #     - "security"
+  #     - "dependencies"
