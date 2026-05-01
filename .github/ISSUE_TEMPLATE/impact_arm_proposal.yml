@@ -8,7 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template for major mission-aligned proposals. Keep the request grounded, ethical, and practical.
+        Use this template for major mission-aligned proposals. Keep the request grounded, ethical, practical, and legally accurate.
+
+        Karma Infinity is operated as Karma Infinity LLC, a New Jersey limited liability company. Do not describe Karma Infinity LLC as a nonprofit, charity, tax-exempt organization, public charity, foundation, or 501(c)(3). Do not imply that payments, sponsorships, support, or funding are tax-deductible charitable donations.
 
   - type: textarea
     id: name
@@ -49,10 +51,19 @@ body:
       description: Share supporting facts, examples, research, lived experience, or operational logic.
 
   - type: textarea
+    id: legal_funding
+    attributes:
+      label: Legal status, funding, and grant fit
+      description: Explain whether the proposal involves grants, sponsorships, funding, revenue, public-benefit language, partnerships, regulated services, or any risk of nonprofit/tax-deductible confusion.
+      placeholder: Use LLC-safe language. Do not describe Karma Infinity LLC as a nonprofit or imply tax-deductible donations.
+    validations:
+      required: true
+
+  - type: textarea
     id: risks
     attributes:
       label: Risks, ethics, and safeguards
-      description: Consider privacy, safety, bias, accessibility, community consent, misuse, and governance.
+      description: Consider privacy, safety, bias, accessibility, community consent, misuse, governance, legal status, funding language, and compliance.
     validations:
       required: true
 
@@ -60,7 +71,7 @@ body:
     id: metrics
     attributes:
       label: Possible impact metrics
-      description: How could success or harm reduction be measured responsibly?
+      description: How could success or harm reduction be measured responsibly without making unsupported nonprofit, charitable, medical, legal, financial, or public-benefit claims?
 
   - type: checkboxes
     id: checklist
@@ -68,6 +79,12 @@ body:
       label: Checklist
       options:
         - label: This proposal is neutral, pro-human, and mission-aligned.
+          required: true
+        - label: This proposal treats Karma Infinity as Karma Infinity LLC, a New Jersey limited liability company.
+          required: true
+        - label: This proposal does not describe Karma Infinity LLC as a nonprofit, charity, tax-exempt organization, public charity, foundation, or 501(c)(3).
+          required: true
+        - label: This proposal does not imply that payments, sponsorships, support, or funding are tax-deductible charitable donations.
           required: true
         - label: This proposal does not require unsafe or unnecessary personal data collection.
           required: true
