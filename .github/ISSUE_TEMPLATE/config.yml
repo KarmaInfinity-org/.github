@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/KarmaInfinity-org/.github/blob/main/SECURITY.md
+    about: Do not open public issues for security vulnerabilities. Follow the private reporting process.
+  - name: Support and help
+    url: https://github.com/KarmaInfinity-org/.github/blob/main/SUPPORT.md
+    about: Read support guidance before opening an issue.
+  - name: Code of Conduct
+    url: https://github.com/KarmaInfinity-org/.github/blob/main/CODE_OF_CONDUCT.md
+    about: Review community standards for participation.
