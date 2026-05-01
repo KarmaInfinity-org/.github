@@ -1,0 +1,72 @@
+name: Feature request
+description: Suggest a mission-aligned improvement, capability, workflow, or tool.
+title: "Feature: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping shape Karma Infinity. Strong feature requests connect a real need to a clear, ethical, useful outcome.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem should this solve?
+      placeholder: Describe the need, pain point, or opportunity.
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who benefits?
+      description: Who is this for?
+      placeholder: Contributors, educators, community members, maintainers, partners, users, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should be built or changed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches could work?
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and safeguards
+      description: Consider privacy, security, accessibility, misuse, ethics, maintenance cost, and community impact.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: mission
+    attributes:
+      label: Mission alignment
+      options:
+        - label: This supports human dignity, access, learning, wellness, resilience, or ethical coordination.
+          required: true
+        - label: This request avoids unnecessary collection of personal or sensitive data.
+          required: true
+        - label: I agree to follow the Karma Infinity Code of Conduct.
+          required: true
