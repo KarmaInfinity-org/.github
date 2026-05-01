@@ -1,0 +1,50 @@
+name: Documentation improvement
+description: Improve clarity, accuracy, onboarding, guides, policies, or public documentation.
+title: "Docs: "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation location
+      description: Link to the page, file, section, or repository where the documentation needs improvement.
+      placeholder: Paste the link or describe the location.
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear, missing, outdated, or incorrect?
+      description: Explain the documentation problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested improvement
+      description: What should the documentation say or include?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: accessibility
+    attributes:
+      label: Accessibility and readability
+      options:
+        - label: This improvement may help new contributors.
+        - label: This improvement may help non-technical readers.
+        - label: This improvement may help screen reader or assistive technology users.
+        - label: This improvement may help readers using mobile devices.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched for existing documentation issues before opening this.
+          required: true
+        - label: I agree to follow the Karma Infinity Code of Conduct.
+          required: true
