@@ -1,0 +1,77 @@
+name: Bug report
+description: Report something that is broken, incorrect, inaccessible, or not working as expected.
+title: "Bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Karma Infinity. Please do not include secrets, private user data, credentials, or security vulnerabilities in public issues.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken?
+      placeholder: Describe the issue clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest clear reproduction path.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add environment, screenshots, logs, browser, device, operating system, repository, branch, or commit if relevant.
+
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact areas
+      options:
+        - label: Accessibility issue
+        - label: Privacy concern
+        - label: Safety concern
+        - label: Documentation issue
+        - label: User experience issue
+        - label: Performance issue
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched for existing issues before opening this.
+          required: true
+        - label: I have not included secrets, credentials, private user data, or security vulnerabilities.
+          required: true
+        - label: I agree to follow the Karma Infinity Code of Conduct.
+          required: true
