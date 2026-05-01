@@ -1,0 +1,27 @@
+# Karma Infinity CODEOWNERS
+# This file defines default review ownership for the command-center repository.
+# Replace or expand teams as Karma Infinity formalizes contributor groups.
+
+# Default ownership for all files
+* @KarmaInfinity-org
+
+# Organization profile and public-facing documentation
+/profile/ @KarmaInfinity-org
+README.md @KarmaInfinity-org
+SUPPORT.md @KarmaInfinity-org
+
+# Community standards and governance
+CODE_OF_CONDUCT.md @KarmaInfinity-org
+CONTRIBUTING.md @KarmaInfinity-org
+GOVERNANCE.md @KarmaInfinity-org
+.github/ISSUE_TEMPLATE/ @KarmaInfinity-org
+.github/PULL_REQUEST_TEMPLATE.md @KarmaInfinity-org
+
+# Security policy and vulnerability reporting guidance
+SECURITY.md @KarmaInfinity-org
+
+# Funding configuration
+FUNDING.yml @KarmaInfinity-org
+
+# Licensing
+LICENSE @KarmaInfinity-org
