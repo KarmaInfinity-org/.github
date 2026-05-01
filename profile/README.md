@@ -18,6 +18,16 @@ We believe technology should help humanity heal, learn, organize, and rise toget
 
 ---
 
+## Legal status
+
+Karma Infinity is operated as **Karma Infinity LLC**, a New Jersey limited liability company.
+
+Karma Infinity LLC is mission-driven, but it is **not** a nonprofit organization, charity, tax-exempt organization, public charity, foundation, or 501(c)(3). Payments, sponsorships, support, partnership funding, or other financial support should not be described as tax-deductible charitable donations unless a qualified legal structure is formally established and documented.
+
+For legal-status and funding-language guardrails, see `LEGAL.md`.
+
+---
+
 ## What we are building
 
 Karma Infinity is an evolving open ecosystem connecting multiple impact areas into one coordinated mission system:
@@ -25,7 +35,7 @@ Karma Infinity is an evolving open ecosystem connecting multiple impact areas in
 - AI-assisted education and learning tools
 - Mental wellness and trauma-informed support concepts
 - Food security and resilience planning
-- Ethical automation for communities, nonprofits, and small organizations
+- Ethical automation for communities, nonprofits, small businesses, and mission-driven organizations
 - Accessibility-first digital tools
 - Human-centered governance and privacy practices
 - Regenerative finance and impact measurement
@@ -43,6 +53,7 @@ Karma Infinity is an evolving open ecosystem connecting multiple impact areas in
 | Ethical AI | AI should be transparent, accountable, privacy-aware, and human-guided. |
 | Accessibility | Tools should be usable across ability, language, income, and background. |
 | Collective well-being | Success is measured by shared benefit, not individual status. |
+| Legal accuracy | Public language must reflect Karma Infinity LLC’s actual legal status. |
 | Evidence and humility | We prefer truth, testing, and correction over hype. |
 | Long-term stewardship | We build for future generations, not short-term attention. |
 
@@ -61,7 +72,7 @@ Early workstreams include:
 - Mental health support concepts
 - Impact measurement frameworks
 - Accessibility and privacy baselines
-- Funding and partnership readiness
+- LLC-safe funding, partnership, and sponsorship readiness
 
 ---
 
@@ -71,12 +82,14 @@ Start here:
 
 1. Read the mission and contribution standards
 2. Review the Code of Conduct
-3. Open an issue using the right template
-4. Keep proposals practical, kind, and mission-aligned
-5. Help build tools that serve people responsibly
+3. Review the legal-status guardrails
+4. Open an issue using the right template
+5. Keep proposals practical, kind, mission-aligned, and legally accurate
+6. Help build tools that serve people responsibly
 
 Important files:
 
+- `LEGAL.md`
 - `CONTRIBUTING.md`
 - `CODE_OF_CONDUCT.md`
 - `SECURITY.md`
@@ -111,7 +124,7 @@ Karma Infinity is guided by Elvin’s vision of building a pro-human ecosystem w
 
 Karma Infinity is in active early-stage development.
 
-Some repositories may be experimental, incomplete, or subject to governance review before public use.
+Some repositories may be experimental, incomplete, or subject to governance, legal, privacy, security, accessibility, or safety review before public use.
 
 ---
 
