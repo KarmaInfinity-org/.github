@@ -1,0 +1,155 @@
+# Karma Infinity .github repository ignore rules
+# Purpose: keep the command center clean, safe, lightweight, and free of local noise.
+
+# -------------------------------------------------------------------
+# Operating system files
+# -------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# -------------------------------------------------------------------
+# Editor and IDE files
+# -------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# -------------------------------------------------------------------
+# Local environment files
+# -------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------------------------------------------------
+# Secrets and credentials
+# -------------------------------------------------------------------
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.asc
+*.gpg
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.token
+*.secret
+secrets/
+credentials/
+private/
+
+# -------------------------------------------------------------------
+# Logs
+# -------------------------------------------------------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -------------------------------------------------------------------
+# Dependency directories
+# -------------------------------------------------------------------
+node_modules/
+vendor/
+.pnp/
+.pnp.js
+
+# -------------------------------------------------------------------
+# Build, cache, and coverage output
+# -------------------------------------------------------------------
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+coverage/
+.nyc_output/
+tmp/
+temp/
+
+# -------------------------------------------------------------------
+# Python cache and virtual environments
+# -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# -------------------------------------------------------------------
+# Generated documentation exports
+# Keep source Markdown in the repo. Ignore local exports unless intentionally added.
+# -------------------------------------------------------------------
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.odt
+*.rtf
+
+# -------------------------------------------------------------------
+# Archives and packaged files
+# -------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# -------------------------------------------------------------------
+# Local AI or automation scratch files
+# -------------------------------------------------------------------
+.ai-cache/
+.agent-cache/
+.codex/
+.openai/
+scratch/
+drafts/
+local-notes/
+
+# -------------------------------------------------------------------
+# Keep GitHub command-center files tracked
+# -------------------------------------------------------------------
+!.github/
+!profile/
+!README.md
+!LICENSE
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+!SECURITY.md
+!SUPPORT.md
+!FUNDING.yml
+!.gitignore
