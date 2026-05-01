@@ -4,6 +4,16 @@ Thank you for your interest in contributing to Karma Infinity.
 
 This ecosystem is being built to serve people with dignity, care, safety, accessibility, and long-term responsibility. Contributions are welcome when they strengthen the mission and respect the standards below.
 
+## Legal status baseline
+
+Karma Infinity is operated as Karma Infinity LLC, a New Jersey limited liability company.
+
+Karma Infinity LLC is not a nonprofit organization, charity, public charity, foundation, tax-exempt organization, or 501(c)(3) unless a future legal structure is formally created, approved, documented, and reflected by maintainers.
+
+All contributions must follow `LEGAL.md`. Do not describe Karma Infinity LLC as a nonprofit or imply that payments, sponsorships, support, or funding are tax-deductible charitable donations.
+
+Use LLC-safe language such as funding, sponsorship, support, partnership, customer payment, revenue, or eligible grant funding when accurate.
+
 ## Contribution principles
 
 Before contributing, align with these principles:
@@ -16,6 +26,7 @@ Before contributing, align with these principles:
 6. Avoid hype, unsupported claims, and unnecessary complexity
 7. Respect maintainers, contributors, users, and affected communities
 8. Leave the system better than you found it
+9. Preserve accurate legal status and funding language
 
 ## Ways to contribute
 
@@ -40,6 +51,7 @@ Please check whether:
 - The request belongs in a specific repository instead of the organization-level `.github` repository
 - The topic involves a security vulnerability, in which case you must follow `SECURITY.md`
 - The idea is aligned with Karma Infinity’s mission and values
+- The language accurately treats Karma Infinity as an LLC, not a nonprofit
 
 ## Issue quality standards
 
@@ -51,7 +63,7 @@ A strong issue includes:
 - Relevant context
 - Steps to reproduce, if reporting a bug
 - Screenshots or logs, if helpful
-- Accessibility, privacy, safety, or ethical considerations
+- Accessibility, privacy, safety, legal, funding, or ethical considerations
 - Suggested solution, if known
 
 ## Pull request expectations
@@ -66,6 +78,8 @@ Before opening a pull request:
 - Check formatting and spelling
 - Avoid unrelated cleanup in the same pull request
 - Confirm that no secrets, credentials, personal data, or private information are included
+- Confirm that the change does not describe Karma Infinity LLC as a nonprofit, charity, tax-exempt entity, public charity, foundation, or 501(c)(3)
+- Confirm that the change does not imply tax-deductible charitable donation status
 
 ## Commit guidance
 
@@ -83,6 +97,7 @@ Examples:
 docs(profile): clarify Karma Infinity mission statement
 chore(templates): add governance issue template
 security(policy): update disclosure process
+legal(status): clarify LLC funding language
 ```
 
 Common types:
@@ -95,6 +110,7 @@ Common types:
 - `test`
 - `security`
 - `governance`
+- `legal`
 
 ## Branch naming
 
@@ -110,6 +126,7 @@ Examples:
 docs/update-support-policy
 feat/add-impact-arm-template
 security/improve-reporting-language
+legal/clarify-llc-status
 ```
 
 ## Review standards
@@ -118,6 +135,8 @@ Maintainers may ask for changes related to:
 
 - Mission alignment
 - Security and privacy
+- Legal status accuracy
+- Funding and tax language
 - Accessibility
 - Documentation clarity
 - Maintainability
@@ -137,6 +156,8 @@ If AI tools materially contributed to a pull request, disclose that in the pull 
 - Security risks
 - License issues
 - Privacy concerns
+- Legal-status errors
+- Funding or tax-language errors
 - Hallucinated references
 - Bias or harmful assumptions
 - Accessibility problems
@@ -169,13 +190,25 @@ When contributing user-facing content or interfaces, consider:
 - Captions or alternatives for media
 - Avoiding unnecessary motion
 
+## Legal and funding baseline
+
+Before submitting public-facing language, ask:
+
+- Does this accurately describe Karma Infinity LLC as a New Jersey limited liability company?
+- Does this accidentally call Karma Infinity a nonprofit, charity, public charity, foundation, tax-exempt organization, or 501(c)(3)?
+- Does this call funding a donation when it should be sponsorship, support, payment, revenue, partnership funding, or eligible grant funding?
+- Does this imply tax deductibility?
+- Does this require review because it involves grants, investors, user data, health, legal, financial, crisis, or vulnerable-population work?
+
+If uncertain, use neutral LLC-safe language and flag the item for review.
+
 ## Mission fit check
 
 Before submitting, ask:
 
 - Does this reduce harm or increase usefulness?
 - Does this protect dignity?
-- Could this create privacy, safety, or accessibility risks?
+- Could this create privacy, safety, legal, funding, or accessibility risks?
 - Is this understandable to future contributors?
 - Is this aligned with a neutral, pro-human mission?
 
