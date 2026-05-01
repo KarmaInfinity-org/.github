@@ -1,0 +1,77 @@
+name: Impact arm proposal
+description: Propose a new Karma Infinity impact area, system module, or mission-aligned vertical.
+title: "Impact Arm: "
+labels:
+  - impact
+  - proposal
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for major mission-aligned proposals. Keep the request grounded, ethical, and practical.
+
+  - type: textarea
+    id: name
+    attributes:
+      label: Proposed arm or module name
+      description: What should this impact area be called?
+    validations:
+      required: true
+
+  - type: textarea
+    id: need
+    attributes:
+      label: Human or planetary need
+      description: What real need does this address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: beneficiaries
+    attributes:
+      label: Intended beneficiaries
+      description: Who would benefit directly or indirectly?
+    validations:
+      required: true
+
+  - type: textarea
+    id: system_design
+    attributes:
+      label: System concept
+      description: Describe the proposed tools, workflows, agents, partnerships, or services.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or rationale
+      description: Share supporting facts, examples, research, lived experience, or operational logic.
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks, ethics, and safeguards
+      description: Consider privacy, safety, bias, accessibility, community consent, misuse, and governance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Possible impact metrics
+      description: How could success or harm reduction be measured responsibly?
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This proposal is neutral, pro-human, and mission-aligned.
+          required: true
+        - label: This proposal does not require unsafe or unnecessary personal data collection.
+          required: true
+        - label: This proposal considers accessibility and inclusion.
+          required: true
+        - label: I agree to follow the Karma Infinity Code of Conduct.
+          required: true
