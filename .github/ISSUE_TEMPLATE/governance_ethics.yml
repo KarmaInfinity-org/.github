@@ -1,0 +1,62 @@
+name: Governance, ethics, or safety concern
+description: Raise a concern about governance, ethics, accessibility, privacy, safety, bias, or mission alignment.
+title: "Governance/Ethics: "
+labels:
+  - governance
+  - ethics
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for non-security governance, ethics, accessibility, privacy, safety, bias, or mission-alignment concerns. Do not include sensitive personal information in public issues.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Accessibility
+        - Privacy
+        - Safety
+        - Bias or fairness
+        - Governance
+        - Mission alignment
+        - Community conduct
+        - Documentation clarity
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+      description: What needs attention?
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Potential impact
+      description: Who or what could be affected?
+    validations:
+      required: true
+
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Suggested resolution
+      description: What action would reduce harm or improve the situation?
+
+  - type: checkboxes
+    id: sensitivity
+    attributes:
+      label: Public issue safety check
+      options:
+        - label: I have not included private personal information, secrets, credentials, or security vulnerability details.
+          required: true
+        - label: I understand that sensitive concerns may need to be handled through a private channel instead.
+          required: true
+        - label: I agree to follow the Karma Infinity Code of Conduct.
+          required: true
